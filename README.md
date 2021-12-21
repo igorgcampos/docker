@@ -8,6 +8,7 @@ Dockerfile-openjdk >> Dockerfile da instalacao de uma aplicacao java direto pela
 
 ###DICAS NA CONSTRUCAO DE UMA IMAGEM DOCKER##
 DICA 1 : A ordem do cache importa
+
 DICA 2 : COPY mais especifico para limitar a quebra do cache
 DICA 3 : Identifique as instruções que podem seu AGRUPADAS.Ex: RUN apt-get install httpd vim wget.
 DICA 4 : Remova as dependecias desnecessarias.
