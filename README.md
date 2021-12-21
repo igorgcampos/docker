@@ -4,6 +4,8 @@ Dockerfile >> Dockerfile da instalação de uma aplicação java bem como suas d
 Dockerfile-Webmin >> Instalacao do Webmin via dockerfile
 Dockerfile-old >>
 Dockerfile-openjdk >> Dockerfile da instalacao de uma aplicacao java direto pela imagem do openjdk
+
+
 ###DICAS NA CONSTRUCAO DE UMA IMAGEM DOCKER##
 DICA 1 : A ordem do cache importa
 DICA 2 : COPY mais especifico para limitar a quebra do cache
