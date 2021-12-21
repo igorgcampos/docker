@@ -1,0 +1,6 @@
+FROM openjdk:11.0-jre-slim-buster
+ARG JAR_FILE=*.jar
+COPY ${JAR_FILE} app.jar
+EXPOSE 9400
+ENTRYPOINT ["java","-jar","/app.jar"]
+
